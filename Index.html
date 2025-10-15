@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Story World</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Quick mobile-friendly styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdf6f0;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #ff6f61;
+      color: white;
+      padding: 15px 10px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    main h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    main p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -19,6 +83,8 @@
   <main>
     <h2>Welcome to My Story World</h2>
     <p>Listen or read beautiful stories created with love 💕</p>
+    <a href="stories.html" style="color:#ff6f61; font-weight:bold; text-decoration:none;">📖 Read Stories</a> |
+    <a href="audio.html" style="color:#ff6f61; font-weight:bold; text-decoration:none;">🎧 Listen Stories</a>
   </main>
 
   <footer>
